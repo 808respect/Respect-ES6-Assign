@@ -29,3 +29,39 @@ var name = "John";
 var greeting = console.log(`"Hello, ${name}!"`);
 
  greeting();
+
+
+// GIT-COMMANDS-ASSIGNMENT
+    
+// 1. find  ( find dir -name search_pattern )
+// The find command is used to search files  
+
+// 2. mkdir.  ( mkdir <directory-name> )
+// The mkdir command stands for Make Directory. It allows one to create a directory (folder) right from the CLI.
+//  When one needs a place to store new files, just use this command to add a new directory in the current working 
+//  directory, or specify a full path to the location where one wants the new directory to be placed. ( mkdir “path/to/new/directory” )
+
+// 3. cd  ( cd “path/to/directory/” )
+// The cd command stands for Change Directory. It allows one to change the directory that one is currently working 
+// with in the Terminal in order to execute other commands on a different directory, view the contents of a different
+//  directory or open a file in a different directory
+
+// 4. cp.  ( cp “filename” “newfilename” )
+// The command is used to copy a file to another directory
+
+// 5. Open  ( open “filename” ) 
+//    The command is used to open a file
+
+// 6. Is ( ls “path/to/directory/ )
+//   The listing directory command is used after navigating into a directory using the cd command to view the contents (files and directories)     
+//   inside of the current directory.
+
+// 7. mv  ( mv “filename” “path/to/new/file/location” )
+//   mv stands for move. It performs a file move from one location to another, removing the file from the original location and 
+//   putting it into the new location.
+
+// 8. touch  ( touch myfile.txt )
+//   The command allows one to create any type of file, but it’s blank. After creating the blank file, one can open it 
+//   in a text editor by typing open [filename]. 
+
+
