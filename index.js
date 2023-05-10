@@ -65,3 +65,39 @@ var greeting = console.log(`"Hello, ${name}!"`);
 //   in a text editor by typing open [filename]. 
 
 
+//  ASSIGNMENT-3-FUNCTIONS
+
+// QUESTION 1
+function multiply (x, y) {
+
+    console.log(x * y);
+}
+multiply (10, 33);
+multiply (3.5, 12);
+
+// QUESTION 2
+function calculateGrade(x) {
+    
+    if (x >= 90) {
+        console.log("A");
+    }
+    else if (x >= 80 | x < 90 & x >= 80 ){
+
+        console.log("B");
+    }
+    else if (x >= 70 | x < 80 & x >= 70 ){
+
+        console.log("C");
+    }
+    else if (x >= 60 | x < 70 & x >= 60 ){
+
+    console.log("D");
+    }
+    else if (x < 60 ){
+
+        console.log("F");
+    }    
+}
+calculateGrade(80);
+
+
