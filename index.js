@@ -98,6 +98,12 @@ function calculateGrade(x) {
         console.log("F");
     }    
 }
-calculateGrade(80);
+calculateGrade(100);
+calculateGrade(85);
+calculateGrade(76);
+calculateGrade(62);
+calculateGrade(2);
+
+
 
 
